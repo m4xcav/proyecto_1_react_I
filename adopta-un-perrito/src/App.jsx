@@ -31,7 +31,7 @@ const perros = [
     pname: "Princesa",
 },
 ];
-const tag = [];
+
 function App() {
   return (
     <>

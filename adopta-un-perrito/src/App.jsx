@@ -35,7 +35,7 @@ const perros = [
 function App() {
   return (
     <>
-      <Header/>
+      <Header className="header"/>
       <div className='mainflex'>
       {
         perros.map(perros => (
@@ -49,7 +49,7 @@ function App() {
         ))
       }
       </div>
-      <Footer/>
+      <Footer className="footer"/>
     </>
   );
 }
